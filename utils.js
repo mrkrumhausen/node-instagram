@@ -24,9 +24,19 @@
                 } \
                 }, \
                 date, \
+                usertags { \
+                    nodes \
+                }, \
                 dimensions { \
                   height, \
                   width \
+                }, \
+                location { \
+                  has_public_page, \
+                  id, \
+                  name, \
+                  lat, \
+                  lng \
                 }, \
                 display_src, \
                 id, \
@@ -97,7 +107,7 @@
       return [{
         "name": "comment_text",
         "value": option.text
-      }]  
+      }]
     },
     followedBy: function(option) {
       return [{
@@ -191,7 +201,7 @@
             value: 'https://www.instagram.com/'
           },
           {
-            name: 'x-csrftoken', 
+            name: 'x-csrftoken',
             value: csrftoken
         }],
         cookies: [
