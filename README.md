@@ -109,7 +109,7 @@ ig.fetchUserInfo('fumeancat').then(function(output) {
 })
 ```
 
-### ig.fetchUserInfo(placeId) => <code>Promise</code>
+### ig.fetchPlaceInfo(placeId) => <code>Promise</code>
 
 ```
 ig.fetchPlaceInfo('1015109349').then(function(output) {
