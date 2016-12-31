@@ -109,6 +109,16 @@ ig.fetchUserInfo('fumeancat').then(function(output) {
 })
 ```
 
+### ig.fetchUserInfo(placeId) => <code>Promise</code>
+
+```
+ig.fetchPlaceInfo('1015109349').then(function(output) {
+  console.log(output);
+}).catch(function(err) {
+      console.log(err);
+})
+```
+
 ### ig.fetchFollower(username, numOfFollower) => <code>Promise</code>
 
 Get follower of a user.
