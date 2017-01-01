@@ -109,6 +109,16 @@ ig.fetchUserInfo('fumeancat').then(function(output) {
 })
 ```
 
+### ig.fetchLocation(lat, lng) => <code>Promise</code>
+
+```
+ig.fetchLocation(55.6834, 12.57009).then(function(output) {
+  console.log(output);
+}).catch(function(err) {
+      console.log(err);
+})
+```
+
 ### ig.fetchPlaceInfo(placeId) => <code>Promise</code>
 
 ```
