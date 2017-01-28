@@ -109,10 +109,10 @@ ig.fetchUserInfo('fumeancat').then(function(output) {
 })
 ```
 
-### ig.fetchLocations(lat, lng) => <code>Promise</code>
-NB: Only works if you manually add your personal access_token to the source code
+### ig.fetchLocation(lat, lng) => <code>Promise</code>
+
 ```
-ig.fetchLocations(55.6834, 12.57009).then(function(output) {
+ig.fetchLocation(55.6834, 12.57009).then(function(output) {
   console.log(output);
 }).catch(function(err) {
       console.log(err);
