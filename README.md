@@ -1,6 +1,11 @@
 # Node Instagram Api
 
-Retrieve media without official instagram api support. (Based on promise)
+Retrieve instagram data without official instagram api support. (Based on promise)
+
+Leverages the open instagram web API, with endpoints:
+```
+url +/?__a=1
+```
 
 ## Install with npm
 
